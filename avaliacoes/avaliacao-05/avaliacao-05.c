@@ -17,7 +17,7 @@ int main()
         printf("Problema ao abrir. tente novamente.");
         return 0;
     }else{
-        printf("Arquivo salvo com sucesso.");
+        printf("Arquivo aberto com sucesso.");
     }
 
     fputs(texto, fp);
